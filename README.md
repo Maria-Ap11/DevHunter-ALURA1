@@ -2,6 +2,8 @@
 
 **Dev's Hunter** é uma página web projetada para desenvolvedores que fornece recursos e links úteis para diferentes áreas da programação e desenvolvimento. O site oferece uma visão geral de áreas como lógica e algoritmos, data science, segurança, e desenvolvimento web, além de links para plataformas e ferramentas recomendadas.
 
+Antes de tudo, um agradecimento a Alura e Google por me dar essa oportunidade e em especial, aos instrutores, colegas e toda comunidade. 
+
 ## Funcionalidades
 
 - **Área de Pesquisa:** Permite aos usuários pesquisar por áreas de interesse em desenvolvimento.

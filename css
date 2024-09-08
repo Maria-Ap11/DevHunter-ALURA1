@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+    font-family: "Press Start 2P", cursive;
+    background-image: url('https://img.freepik.com/fotos-gratis/figura-triangular-geometrica-legal-em-uma-luz-de-laser-neon-otima-para-fundos-e-papeis-de-parede_181624-9331.jpg?t=st=1725748921~exp=1725752521~hmac=c26c22f71693fe39585c466a68a858c48e81ae1c353a463f92d4f8d064b39bc1&w=740');
+    background-size: cover;
+    background-position: center;
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #e3b04b;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+input[type="text"] {
+    width: 20rem;
+    border: 2px solid #e3b04b;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #1e1e1e;
+    color: #f0f0f0;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    border-color: #e3b04b;
+    outline: none;
+}
+
+button#resultados {
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 0.5rem;
+    background: linear-gradient(145deg, #e3b04b, #f2b62b);
+    color: #1e1e1e;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+button#resultados:hover {
+    background: linear-gradient(145deg, #f2b62b, #e3b04b);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.filters {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+button.filter-btn {
+    padding: 0.4rem 0.8rem;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #000;
+    color: #fff;
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button.filter-btn:hover {
+    background-color: #333;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.content-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 80%;
+    max-width: 60rem;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+
+.content-box {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #f0f0f0;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+}
+
+.content-box:hover {
+    transform: translateY(-5px);
+}
+
+.content-box h2 {
+    font-size: 1.5rem;
+    color: #e3b04b;
+    margin: 0;
+}
+
+.content-box p {
+    margin: 0.5rem 0;
+}
+
+.content-box a {
+    color: #e3b04b;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 0.5rem;
+}
+
+.content-box a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #d3d3d3;
+    text-align: center;
+    padding: 1rem;
+    width: 100%;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+}
